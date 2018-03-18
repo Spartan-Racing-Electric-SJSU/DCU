@@ -37,9 +37,28 @@ SRE2
 
 #VCU build files
 AddAPDB.html
-build/*
-#!build/main.hex
+build
 
 release/*
 cc3232a
 cc12248a
+
+#PCAN simulations
+PCAN
+
+#All code
+*.c*
+*.h*
+
+#Batch files
+*.bat
+
+#PS1 files
+_make.ps1
+
+#Pictures
+*.jpg
+
+#Miscellaneous
+flash.cmm
+cc180a
